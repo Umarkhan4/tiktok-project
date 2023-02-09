@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: black;
+}
+.container {
+  height: 120px;
+  display: flex;
+  font-family: Ubuntu;
+}
+.header-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 80px;
+}
+.linking-pages {
+  margin: 35px 10px;
+  font-size: 2rem;
+  color: aliceblue;
+  text-align: center;
+  font-family: Poppins;
+}
+.link-anchers{
+  color: #fff;
+  text-decoration: none;
+}
+.link-anchers :hover{
+    color: #FD1B68;
+}
+
+span {
+  margin-left: 10px;
+}
+.header-btn button {
+  display: flex;
+  border-radius: 8px;
+  background: rgb(9, 103, 121);
+  background: linear-gradient(
+    163deg,
+    rgb(65, 164, 209) 37%,
+    #FD1B68 56%
+  );
+  padding: 5px;
+  margin: 36px 40px;
+  font-size: 1.5rem;
+}
+
+.btn-ancher{
+    color: black;
+    text-decoration: none;
+}
+.btn-ancher :hover {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 3s ease-in-out;
+}
+
+/* centeral div css  */
+.wapper {
+  padding: 40px 50px;
+  font-family: Ubuntub;
+  background-color: #FFF7F8;
+}
+.highlight{
+    color: blueviolet;
+}
+.feature-img {
+  width: 450px;
+  border-radius: 10px;
+  margin-left: 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.rating{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+    width: 300px;
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
