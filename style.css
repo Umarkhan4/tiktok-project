@@ -43,12 +43,12 @@ span {
   border-radius: 8px;
   background: #25f4ee;
   padding: 5px;
-
   font-size: 1.5rem;
 }
 
 .btn-ancher {
-  color: black;
+  color: #fff;
+  font-weight: 600;
   text-decoration: none;
 }
 .btn-ancher :hover {
@@ -72,6 +72,48 @@ section {
   align-items: center;
   font-weight: 200;
 }
+/* accordiance css  */
+#accordion{
+  
+  width: 600px;
+
+}
+#accordion li{
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px; 
+}
+#accordion li label{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+#accordion label + input[type="radio"]{
+  display: none;
+}
+#accordion .content{
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+  max-height: 400px;
+
+
+}
+/* feature pic css  */
+
 .feature-img {
   width: 450px;
   border-radius: 10px;
@@ -149,8 +191,11 @@ section {
   text-align: center;
   background-color: #FFF7F8;
 }
+.email-input{
+  align-items: left;
+}
 .add-to-cart{
-  background-color: #1b84fd;
+  background-color: #8fb2db;
   border-radius: 5px;
   padding-right: 4px;
   
