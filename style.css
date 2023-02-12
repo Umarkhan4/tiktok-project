@@ -197,6 +197,16 @@ section {
 .add-to-cart{
   background-color: #8fb2db;
   border-radius: 5px;
-  padding-right: 4px;
-  
+  padding-right: 4px;  
 }
+.add-to-cart:hover{
+  background-color: #25f4ee;
+}
+strong{
+  color: red;
+}
+.refund{
+  font-size: 1rem;
+  color: #9dafc4;
+}
+/* monatization look  */
